@@ -4,13 +4,23 @@
 #include "pch.h"
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	int a;
+	long b;
+	char c;
+	float d;
+	double e;
+
+	scanf("%d %ld %c %f %lf", &a, &b, &c, &d, &e);
+	//cin >> a >> b >> c >> d >> e;
+	printf("%d\n%ld\n%c\n%f\n%lf\n", a, b, c, d, e);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+// Debug program: F5 or Debug > Start Debugging i
 
 // Tips for Getting Started: 
 //   1. Use the Solution Explorer window to add/manage files
